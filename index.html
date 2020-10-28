@@ -55,7 +55,7 @@ Professionally speaking, I would describe myself as a machine learning, computer
 						</header>
 					    <p style="font-size:1em; text-align: justify">I recently graduated from a Master of Engineering in Robotics, delivered by Polytech Sorbonne, in Paris, France.<br />
 2 years ago, during this formation, I started taking a real interest in artificial intelligence and more specifically in machine learning.<br />
-This growing curiosity led me to the ISTeC lab of the University of Nottingham, where I did an internship about accelerometer-based human gesture recognition using machine learning models. My scientific article was accepted and presented during the 2019 IEEE Symposium Series on Computational Intelligence, in Xiamen, China.<br />
+This growing curiosity led me to the ISTeC lab of the Nottingham Trent University, where I did an internship about accelerometer-based human gesture recognition using machine learning models. My scientific article was accepted and presented during the 2019 IEEE Symposium Series on Computational Intelligence, in Xiamen, China.<br />
 After this positive experience, I spent a semester at the University of Montreal, taking courses on machine learning and natural language processing, in order to have theoretical knowledge and a stronger practical experience. I completed this formation by following a MOOC about deep learning, published by the MIT.<br />
 I then went back to Paris to validate my Master in Robotics by completing a 6-month internship at FieldBox.ai, where I explored computer vision algorithms to track industrial machines activity and operationalise these solutions through a web application.</p>
 					</div>
@@ -81,19 +81,158 @@ I then went back to Paris to validate my Master in Robotics by completing a 6-mo
 					</header>
 					
 					<header>
-						<h3 style="font-weight:400">2020</h3>
+						<h3>2020</h3>
 					</header>
-					<p>A.</p>
+					
+					<header class="major">
+						<h5 style="font-weight:bold">MOOC on Deep Learning</h5>
+						<p> <i>October 2020</i> </p>
+					</header>
+					<p style="text-align: justify">This <a target="_blank" rel="noopener noreferrer" href="http://introtodeeplearning.com/">MOOC</a>, published by the MIT, provides both foundational knowledge of deep learning algorithms through 10 video lessons, but also practical experience in building neural networks - with applications to computer vision, natural language processing, and more - through 3 very interesting labs, using the TensorFlow library.<br />
+					 I more specificly studied Fastforward Neural Networks (FNNs), Recurrent Neural Networks (RNNs) and LSTM cells, Convolutional Neural Networks (CNNs), Generative Adversarial Networks (GANs) and Reinforcement Learning.<br /><br />
+					 Repo: <a target="_blank" rel="noopener noreferrer" href="https://github.com/luisdossantos/mooc-mit-deeplearning" class="icon brands alt fa-github"><span class="label">GitHub</span></a> </p>
+
+					<header class="major">
+					    <div style="display:">
+    						<h5 style="font-weight:bold">Video-based industrial equipment activity tracking & operationalisation</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">FieldBox.ai,</span> <span style="color:#378ec8">Paris, France &ensp;[internship]</span></h5>
+    					</div>
+						<p> <i>February - August 2020</i> </p>
+						<!--
+						<p> <span style="margin-right:0.5em; padding:0.2em 0.6em; font-size:0.8em; border: 1px solid #B9B9B9; border-radius: 5px;">HTML </span><span style="padding:0.2em 0.6em; font-size:0.8em; border: 1px solid #B9B9B9; border-radius: 5px;">Scikit-Learn</span></p>
+						-->
+					</header>
+					<p style="text-align: justify">Explore computer vision algorithms to detect an industrial machine state, i.e. operating or turned off, and count the number of cycles operated. We first limited the study to unidirectional press machines, with the goal to later generalize the solution to other types of equipments.<br />
+					I developed and compared different algorithms: the solution we adopted is based on the optical flow, i.e. computing points of interest in the frame and tracking them. This solution is easier to implement in a factory than a neural-network-based solution, like state-of-the-art Mask R-CNN (object instance segmentation) that requires a lot of labelled images to train the network.<br /><br />
+					I then worked with a team to operationalize these developed solutions. We developed a web application to which a remote device - like a smartphone or a raspberry pi placed in a factory, filming a machine - will send its video stream. We can then apply the developed solutions to the received real-time video stream.<br /><br />
+					 <i>(Commercial project - the repo is confidential)</i></p>
 		
 					<header>
-						<h3 style="font-weight:400">2019</h3>
+						<h3>2019</h3>
 					</header>
-					<p>A.</p>
+					
+                    <header class="major">
+					    <div style="display:">
+    						<h5 style="font-weight:bold">Master of Computer Science&ensp; - &ensp;Graduate courses</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">University of Montreal,</span> <span style="color:#378ec8">Canada &ensp;[exchange semester]</span></h5>
+    					</div>
+						<p> <i>September - December 2019</i> </p>
+					</header>
+					<ul style="list-style-type:none; padding-left: 0; text-align: justify">
+						<li style="padding-left: 0">Machine Learning:</li>
+						<li style="margin-top: 0.3em; padding-left: 2em">k-nearest neighbors, naïve Bayes classifier, gradient descent, optimization, decision trees and random forest, svm, multilayer perceptron and a brief overview of unsupervised learning, CNNs and RNNs using PyTorch</li>
+						<li style="margin-top: 0.6em; padding-left: 0; display:flex">
+						    <a target="_blank" rel="noopener noreferrer" href="https://github.com/luisdossantos/semester-UdeM/tree/main/Machine%20Learning%20course" class="icon brands alt fa-github" style="margin-right: 1.1em"><span class="label">GitHub</span></a>Projects implementing Parzen, SVM and a Fastforward Neural Network (FNN) from scratch, and a text classification project predicting the topics of Reddit comments.
+						</li>
+						
+						<li style="margin-top: 1.3em; padding-left: 0">Natural Language Processing:</li>
+						<li style="margin-top: 0.3em; padding-left: 2em">Language models, n-grams, word2vec, information extraction, named-entity recognition, parsing</li>
+						<li style="margin-top: 0.6em; padding-left: 0; display:flex">
+						    <a target="_blank" rel="noopener noreferrer" href="https://github.com/luisdossantos/semester-UdeM/tree/main/Natural%20Language%20Processing%20course" class="icon brands alt fa-github" style="margin-right: 1.1em"><span class="label">GitHub</span></a>Text classification project, predicting the age range of blogs' authors.
+					    </li>
+						
+						<li style="margin-top: 1.3em; padding-left: 0">Tri-dimensional vision:</li>
+						<li style="margin-top: 0.3em; padding-left: 2em">Calibration, camera models</li>
+						<li style="margin-top: 0.6em; padding-left: 0; display:flex">
+						    <a target="_blank" rel="noopener noreferrer" href="https://github.com/luisdossantos/semester-UdeM/tree/main/Tri-dimensional%20Vision%20course" class="icon brands alt fa-github" style="margin-right: 1.1em"><span class="label">GitHub</span></a>Autonomous robot navigation by predicting obstacles, using a JetBot from Nvidia.
+					    </li>
+					</ul><br />
+
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">Accelerometer-based Hand Gesture Recognition for Human-Robot Interaction</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">ISTeC Lab, Nottingham Trent University,</span> <span style="color:#378ec8">England &ensp;[internship]</span></h5>
+				        </div>
+    					<p> <i>June - August 2019</i> </p>
+					</header>
+					<p style="text-align: justify">Develop an innovative solution towards human-robot interaction using a wrist-worn tri-axial accelerometer. This was tackled as a three-fold gesture recognition problem with a gesture set including six different gestures, namely <i>right</i>, <i>front</i>, <i>left</i>, <i>back</i>, <i>up</i> and <i>circle</i>. I employed an adaptive segmentation technique (sliding window) to spot potential segments of interest within the signal. I led this project from the collection and manipulation of the data, until the comparison of different state-of-the-art classifiers, using Scikit-Learn and Pandas (Python).<br />
+					Our <a href="#two">scientific article</a> was accepted and presented during the 2019 IEEE Symposium Series on Computational Intelligence, in Xiamen, China.<br /><br />
+					Repo: <a target="_blank" rel="noopener noreferrer" href="https://github.com/luisdossantos/gesture-recognition" class="icon brands alt fa-github"><span class="label">GitHub</span></a></p>
+
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">Automation of the harvesting of tomatoes in greenhouses</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">Syha, Advanced Robotics for Agriculture,</span> <span style="color:#378ec8">Paris, France &ensp;[School project]</span></h5>
+				        </div>
+    					<p> <i>September 2018 - May 2019&ensp;/&ensp;Every Friday</i> </p>
+					</header>
+					<p style="text-align: justify">Build a multi-agent simulation of a fleet of robots harvesting in a greenhouse, using the NetLogo programing language.<br />
+					The specs inluded to take into account the battery of the robots, the charging areas, anti-colision robots' motion and optimum harvesting efficiency. The program is able to adapt to different input settings, like the number of lanes, their length, number of charging stations, ... so the user can set the simulation to represent his greenhouse.<br /><br />
+					Repo: <a target="_blank" rel="noopener noreferrer" href="https://github.com/luisdossantos/multi-agent-simulation" class="icon brands alt fa-github"><span class="label">GitHub</span></a></p>
+
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">4th year Master of Engineering in Robotics</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">Polytech Sorbonne,</span> <span style="color:#378ec8">Paris, France</span></h5>
+				        </div>
+    					<p> <i>September 2018 - May 2019</i> </p>
+					</header>
+					<p style="text-align: justify">Object-oriented programming (C++ and Java), image processing, system computing<br />Robotics labs working with NAO, Baxter, robotic arms (ABB 6-axis and Stäubli), E-Puck, Phantom Omni<br />
+					<ul style="list-style-type:none; padding-left: 0; text-align: justify">
+						<li style="padding-left: 0">Projects:</li>
+						<li style="padding-left: 2em">Count the number of vehicles driving through a highway, using opencv.</li>
+						<li style="padding-left: 2em">Create a game: we recreated Curve Fever, which is an improved multiplayer Snake.</li>
+					</ul>
+					</p>
 					
 					<header>
-						<h3 style="font-weight:400">2018</h3>
+						<h3>2018</h3>
 					</header>
-					<p>A.</p>
+					
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">Web development</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">Lightech,</span> <span style="color:#378ec8">Paris, France &ensp;[internship]</span></h5>
+				        </div>
+    					<p> <i>June - August 2018</i> </p>
+					</header>
+					<p style="text-align: justify">Front-end of an e-shop project and a tennis club intranet, using HTML, CSS, TypeScript and Angular.</p>
+
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">3rd year Master of Engineering in Robotics</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">Polytech Sorbonne,</span> <span style="color:#378ec8">Paris, France</span></h5>
+				        </div>
+    					<p> <i>September 2017 - May 2018</i> </p>
+					</header>
+					<p style="text-align: justify">Mathematics, computer programming (C language) and algorithms complexity&ensp;-&ensp;automation and electronics&ensp;-&ensp;machanical engineering<br />
+					<ul style="list-style-type:none; padding-left: 0; text-align: justify">
+						<li style="padding-left: 0">Projects:</li>
+						<li style="padding-left: 2em">Monitor a camera equipped with two servomotors to track a specific object using opencv in C++.</li>
+						<li style="padding-left: 2em">Prototype a robotic arm equipped with 2 servomotors using a CAD software and 3D-print it. Then program the servos with Arduino to draw a square, the end effector of the arm holding a pen.</li>
+					</ul>
+					</p>
+
+                    <!--
+					<header>
+						<h3>2015 - 2017</h3>
+					</header>
+					
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">Intensive undergraduate program preparing for the Master of Engineering</h5>
+	    					<h5><span style="font-weight: 400; color:#378ec8">Lycée Carnot,</span> <span style="color:#378ec8">Dijon, France</span></h5>
+				        </div>
+    					<p> <i>September 2015 - July 2017</i> </p>
+					</header>
+					<p style="text-align: justify">Mathematics&ensp;-&ensp;physics&ensp;-&ensp;engineering sciences</p>
+					-->
+
+                    <!--                    
+					<header>
+						<h3>2015</h3>
+					</header>
+					
+                    <header class="major">
+			            <div style="display:">
+					        <h5 style="font-weight:bold">High School diploma</h5>
+					        <h5 style="font-weight:bold; color:green">Lycée Chevalier d'Eon, Tonnerre, France</h5>
+				        </div>
+    					<p> <i>July 2015</i> </p>
+					</header>
+					<p style="text-align: justify">Graduated with high honors.</p>
+					-->
+
 				</div>
 			</section>
 
@@ -127,6 +266,7 @@ I then went back to Paris to validate my Master in Robotics by completing a 6-mo
 		-->
 
 		<!-- Four -->
+		<!--
 			<section id="four" class="main style1 special">
 				<div class="container">
 					<header class="major">
@@ -169,6 +309,7 @@ I then went back to Paris to validate my Master in Robotics by completing a 6-mo
 					</div>
 				</div>
 			</section>
+		-->
 
 		<!-- Five -->
 
